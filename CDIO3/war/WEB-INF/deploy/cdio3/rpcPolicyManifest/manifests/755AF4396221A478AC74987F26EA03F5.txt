@@ -1,0 +1,2 @@
+serviceClass: code.client.service.IService
+path: 4826ED11BC40379A80F32E12C023BC7A.gwt.rpc

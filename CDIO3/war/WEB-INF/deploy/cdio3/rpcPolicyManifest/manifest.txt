@@ -1,0 +1,3 @@
+# Module cdio3
+# RPC service class, partial path of RPC policy file
+code.client.service.IService, 4826ED11BC40379A80F32E12C023BC7A.gwt.rpc

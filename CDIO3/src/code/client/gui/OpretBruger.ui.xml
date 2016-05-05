@@ -1,0 +1,37 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.labels {
+			font-size:16px;
+			size:154px;
+		}
+
+		.box {
+			font-size:16px;
+			size: 150px;
+		}
+
+		.btn {
+			display:block;
+			size:150px;
+			font-size:16px;
+		}
+	
+	</ui:style>
+	<g:HTMLPanel>
+	    <g:Label styleName="{style.labels}" ui:field="labelID" text="Indtast det ønskede operatør ID" />
+	    <g:TextBox styleName="{style.box}" ui:field="boxID" />
+	    <g:Label styleName="{style.labels}" ui:field="labelNavn" text="Indtast navnet på brugeren" />
+	    <g:TextBox styleName="{style.box}" ui:field="boxNavn" />
+	    <g:Label styleName="{style.labels}" ui:field="labelIni" text="Indtast brugerens initialer" />
+	    <g:TextBox styleName="{style.box}" ui:field="boxIni" />
+	    <g:Label styleName="{style.labels}" ui:field="labelCPR" text="Indtast brugerens CPR-nummer" />
+	    <g:TextBox styleName="{style.box}" ui:field="boxCPR" />
+	    <g:Label styleName="{style.labels}" ui:field="labelPassword" text="Indtast det ønskede password" />
+	    <g:PasswordTextBox styleName="{style.box}" ui:field="boxPassword" />
+	    <g:Label styleName="{style.labels}" ui:field="labelGentagPassword" text="Gentag passwordet" />
+		<g:PasswordTextBox styleName="{style.box}" ui:field="boxGentagPassword" />	
+		<g:Button styleName="{style.btn}" ui:field="submit" text="Opret brugeren" />
+	</g:HTMLPanel>
+</ui:UiBinder> 

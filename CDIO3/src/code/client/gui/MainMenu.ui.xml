@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.menu {
+			font-size:16px;
+			width:160px;
+		}
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:Button styleName="{style.menu}" ui:field="afvej" text="Afvej" />
+		<g:Button styleName="{style.menu}" ui:field="skiftPassword" text="Skift password" />
+		<g:Button styleName="{style.menu}" ui:field="adminBrugere" text="Administrer brugere" />
+<!-- 	<g:Button styleName="{style.menu}" ui:field="login" text="Log ind" />  -->
+		<g:Button styleName="{style.menu}" ui:field="logout" text="Log ud" /> 
+	</g:HTMLPanel>
+</ui:UiBinder> 

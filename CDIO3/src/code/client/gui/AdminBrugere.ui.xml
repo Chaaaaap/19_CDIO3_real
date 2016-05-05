@@ -1,0 +1,17 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.adminBtn {
+			font-size:16px;
+			width:160px;
+		}
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<g:Button styleName="{style.adminBtn}" ui:field="opret" text="Opret ny bruger" />
+		<g:Button styleName="{style.adminBtn}" ui:field="opdater" text="Rediger bruger" />
+		<g:Button styleName="{style.adminBtn}" ui:field="aktiver" text="Aktiver/deaktiver" />
+		<g:Button styleName="{style.adminBtn}" ui:field="tilbage" text="Tilbage" />
+	</g:HTMLPanel>
+</ui:UiBinder> 
