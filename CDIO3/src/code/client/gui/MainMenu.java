@@ -5,6 +5,7 @@ import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
+import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
@@ -47,6 +48,7 @@ public class MainMenu extends Composite {
 		CDIO3.clearContent();
 		SkiftPassword skiftPassword = new SkiftPassword(client, oprLoggedIn);
 		CDIO3.attachContent(skiftPassword);
+		Window.alert("Det er desværre ikke muligt at skifte password");
 	}
 	
 	@UiField

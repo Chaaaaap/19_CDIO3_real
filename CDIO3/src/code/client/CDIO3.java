@@ -33,7 +33,7 @@ public class CDIO3 implements EntryPoint, LoginListener {
 
 		client = new ServiceClient(GWT.getHostPageBaseURL()+"cdio3");
 		login  = new Login(client, this);
-		menu  = new MainMenu(client, oprLoggedIn);
+		menu = new MainMenu(client, oprLoggedIn);
 		
 		vPanel.add(header);
 		vPanel.add(menu);

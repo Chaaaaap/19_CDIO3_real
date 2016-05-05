@@ -16,6 +16,7 @@ import com.google.gwt.user.client.ui.PasswordTextBox;
 import com.google.gwt.user.client.ui.TextBox;
 
 import code.client.CDIO3;
+import code.client.gui.MainMenu;
 import code.client.gui.Login.LoginListener;
 import code.shared.OperatoerDTO;
 
@@ -408,7 +409,6 @@ public class ServiceClient {
 					Window.alert("Du er nu logget ind");
 					CDIO3.clearContent();
 					CDIO3.showMenu();
-//					listener.onLogin(result);
 					} else {
 						Window.alert("Din bruger er deaktiveret");
 					}
