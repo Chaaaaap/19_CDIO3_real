@@ -1,6 +1,6 @@
 /* must be dropped in this order to avoid constraint violations */
 
-create database 19_CDIO3;
+CREATE DATABASE 19_CDIO3;
 use 19_CDIO3;
 
 DROP VIEW IF EXISTS recepter;
