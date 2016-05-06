@@ -95,8 +95,7 @@ public class ServiceClient {
 
 			@Override
 			public void onSuccess(OperatoerDTO result) {
-				// TODO Auto-generated method stub
-
+				result.deactivate();
 			}
 
 		});
